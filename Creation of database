@@ -40,3 +40,4 @@ UPDATE world.country SET Population = 0;
 UPDATE world.country SET Population = 100, SurfaceArea = 100;
 SELECT sum(Population), avg(Population), max(Population), min(Population), count(Population) FROM world.country;
 SELECT DISTINCT(Region) FROM world.country WHERE LENGTH(TRIM(Region)) < 10;
+SELECT Region, Name, Population FROM world.country WHERE Region = 'Australia and New Zealand' ORDER By Population desc;
