@@ -1,5 +1,5 @@
 mysql -u root --password='re:S9'    
-mysql -u root --password='re:St@rt!9' < /home/ec2-user/world.sql     --import FROM file---
+mysql -u root --password='re:S\9' < /home/ec2-user/world.sql     --import FROM file---
 SHOW DATABASES;
 CREATE DATABASE world;
 
