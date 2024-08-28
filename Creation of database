@@ -1,5 +1,6 @@
 mysql -u root --password='re:S9'    
 mysql -u root --password='re:S\9' < /home/ec2-user/world.sql     --import FROM file---
+sudo yum install mariadb -y       mysql -u admin --password='admin123' -h aurora.cluster-cvbmm0notikr.us-west-2.rds.amazonaws.com
 SHOW DATABASES;
 CREATE DATABASE world;
 
