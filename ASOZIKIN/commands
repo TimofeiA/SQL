@@ -21,3 +21,9 @@ WHERE hair IN ('Strawberry Blond Hair', 'Red Hair', 'Auburn Hair');
 SELECT *
 FROM superheroes
 WHERE hair LIKE '%Blond%';
+
+SELECT *
+FROM superheroes
+WHERE gender = 'Female Characters'
+AND
+align = 'Bad Characters';
