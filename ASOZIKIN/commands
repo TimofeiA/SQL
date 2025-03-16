@@ -1,4 +1,4 @@
-SELECT DISTINCT(hair) FROM superheroes    --unique(distinct)
+SELECT DISTINCT(hair) FROM superheroes    --unique(distinct)--
 LIMIT 15;
 
 
