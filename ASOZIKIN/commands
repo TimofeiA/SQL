@@ -1,2 +1,7 @@
 SELECT DISTINCT(hair) FROM superheroes    --unique(distinct)
 LIMIT 15;
+
+
+SELECT *
+FROM superheroes
+WHERE gender = 'Female Characters';
