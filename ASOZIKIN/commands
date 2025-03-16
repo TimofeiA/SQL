@@ -27,3 +27,4 @@ FROM superheroes
 WHERE gender = 'Female Characters'
 AND
 align = 'Bad Characters';
+
