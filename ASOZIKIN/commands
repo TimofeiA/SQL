@@ -9,3 +9,7 @@ WHERE gender = 'Female Characters';
 SELECT *
 FROM superheroes
 WHERE align = 'Reformed Criminals';
+
+SELECT *
+FROM superheroes
+WHERE year BETWEEN 2000 AND 2005;
