@@ -5,3 +5,7 @@ LIMIT 15;
 SELECT *
 FROM superheroes
 WHERE gender = 'Female Characters';
+
+SELECT *
+FROM superheroes
+WHERE align = 'Reformed Criminals';
