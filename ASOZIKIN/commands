@@ -18,4 +18,6 @@ SELECT *
 FROM superheroes
 WHERE hair IN ('Strawberry Blond Hair', 'Red Hair', 'Auburn Hair');
 
-
+SELECT *
+FROM superheroes
+WHERE hair LIKE '%Blond%';
