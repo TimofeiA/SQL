@@ -13,3 +13,9 @@ WHERE align = 'Reformed Criminals';
 SELECT *
 FROM superheroes
 WHERE year BETWEEN 2000 AND 2005;
+
+SELECT *
+FROM superheroes
+WHERE hair IN ('Strawberry Blond Hair', 'Red Hair', 'Auburn Hair');
+
+
