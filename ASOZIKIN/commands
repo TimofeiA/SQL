@@ -32,3 +32,6 @@ SELECT *
 FROM superheroes
 ORDER BY year;
 
+SELECT * 
+FROM superheroes
+ORDER BY appearances DESC;  (ASC sort by incremental, DESC by decremental)
