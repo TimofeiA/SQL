@@ -35,3 +35,11 @@ ORDER BY year;
 SELECT * 
 FROM superheroes
 ORDER BY appearances DESC;  (ASC sort by incremental, DESC by decremental)
+
+
+SELECT *
+FROM superheroes
+WHERE align = 'Bad Characters'
+ORDER BY appearances DESC;
+
+
