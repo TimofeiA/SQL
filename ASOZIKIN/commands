@@ -28,3 +28,7 @@ WHERE gender = 'Female Characters'
 AND
 align = 'Bad Characters';
 
+SELECT *
+FROM superheroes
+ORDER BY year;
+
