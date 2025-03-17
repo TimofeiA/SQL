@@ -42,4 +42,10 @@ FROM superheroes
 WHERE align = 'Bad Characters'
 ORDER BY appearances DESC;
 
+SELECT *
+FROM superheroes
+WHERE align = 'Bad Characters'
+AND gender = 'Female Characters'
+ORDER BY appearances DESC
+LIMIT 5;
 
